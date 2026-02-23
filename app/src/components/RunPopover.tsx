@@ -35,7 +35,7 @@ export default function RunPopover({ dateStr, runs, getRunStatus, onToggle, onCl
     <div className="fixed inset-0 z-20 flex items-center justify-center bg-black/20" onClick={onClose}>
       <div
         ref={ref}
-        className="bg-white rounded-xl shadow-lg border border-stone-200 p-4 w-80 max-w-[90vw] animate-in fade-in"
+        className="bg-white rounded-xl shadow-lg border border-stone-200 p-4 w-80 max-w-[90vw] popover-fade-in"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex items-center justify-between mb-3">

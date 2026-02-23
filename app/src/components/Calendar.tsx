@@ -136,6 +136,34 @@ export default function Calendar({ plan, getRunStatus, onToggle }: Props) {
         ))}
       </div>
 
+      {/* Color legend */}
+      <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-stone-500">
+        <div className="flex items-center gap-1.5">
+          <div className="w-2 h-2 rounded-full bg-blue-500" />
+          <span>Easy</span>
+        </div>
+        <div className="flex items-center gap-1.5">
+          <div className="w-2 h-2 rounded-full bg-orange-500" />
+          <span>Workout</span>
+        </div>
+        <div className="flex items-center gap-1.5">
+          <div className="w-2 h-2 rounded-full bg-green-500" />
+          <span>Long</span>
+        </div>
+        <div className="flex items-center gap-1.5">
+          <div className="w-2 h-2 rounded-full bg-red-500" />
+          <span>Race</span>
+        </div>
+        <div className="flex items-center gap-1.5">
+          <div className="w-2 h-2 rounded-full bg-stone-400" />
+          <span>Skipped</span>
+        </div>
+        <div className="flex items-center gap-1.5 text-stone-400">
+          <div className="w-2 h-2 rounded-full border border-stone-400" />
+          <span>Pending (outline)</span>
+        </div>
+      </div>
+
       {/* Popover */}
       {selectedDate && selectedRuns.length > 0 && (
         <RunPopover

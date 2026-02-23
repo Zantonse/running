@@ -19,10 +19,22 @@ interface Props {
 export default function ProgressSummary({ plan, progress }: Props) {
   const today = todayString();
   const block = getActiveBlock(plan, today);
-  if (!block) return null;
+  if (!block) {
+    return (
+      <div className="bg-white rounded-xl border border-stone-200 p-5 mb-8 text-sm text-stone-500 text-center">
+        No active training block for today.
+      </div>
+    );
+  }
 
   const currentWeek = getCurrentWeek(block, today);
-  if (!currentWeek) return null;
+  if (!currentWeek) {
+    return (
+      <div className="bg-white rounded-xl border border-stone-200 p-5 mb-8 text-sm text-stone-500 text-center">
+        No current week found in this training block.
+      </div>
+    );
+  }
 
   const phase = getPhaseForWeek(block, currentWeek.weekNumber);
   const totalWeeks = getTotalWeeks(block);
