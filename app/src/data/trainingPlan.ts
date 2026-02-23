@@ -1,4 +1,4 @@
-import { TrainingBlock } from "../types";
+import type { TrainingBlock } from "../types";
 
 export const trainingPlan: TrainingBlock[] = [
   {

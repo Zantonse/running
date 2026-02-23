@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
-import { ProgressData, RunStatus } from "../types";
+import type { ProgressData, RunStatus } from "../types";
 
 export function useProgress() {
   const [progress, setProgress] = useState<ProgressData>({ runs: {} });

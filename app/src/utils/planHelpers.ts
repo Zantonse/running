@@ -1,4 +1,4 @@
-import { TrainingBlock, Week, Phase, Run, ProgressData } from "../types";
+import type { TrainingBlock, Week, Phase, Run, ProgressData } from "../types";
 
 /** Get today's date as YYYY-MM-DD string */
 export function todayString(): string {

@@ -1,4 +1,4 @@
-import { Run, RunStatus } from "../types";
+import type { Run, RunStatus } from "../types";
 
 const TYPE_COLORS: Record<string, string> = {
   easy: "bg-blue-100 text-blue-700",

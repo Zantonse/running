@@ -1,4 +1,4 @@
-import { Week, RunStatus } from "../types";
+import type { Week, RunStatus } from "../types";
 import RunItem from "./RunItem";
 
 interface Props {

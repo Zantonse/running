@@ -1,4 +1,4 @@
-import { Phase, ProgressData } from "../types";
+import type { Phase, ProgressData } from "../types";
 
 interface Props {
   phase: Phase;

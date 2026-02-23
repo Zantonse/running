@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react";
-import { Run, RunStatus, TrainingBlock } from "../types";
+import type { Run, RunStatus, TrainingBlock } from "../types";
 import CalendarDay from "./CalendarDay";
 import RunPopover from "./RunPopover";
 import { todayString } from "../utils/planHelpers";

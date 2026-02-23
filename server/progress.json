@@ -1,3 +1,7 @@
 {
-  "runs": {}
+  "runs": {
+    "w1-r1": {
+      "status": "done"
+    }
+  }
 }

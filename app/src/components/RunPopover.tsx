@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { Run, RunStatus } from "../types";
+import type { Run, RunStatus } from "../types";
 import RunItem from "./RunItem";
 import { formatDate } from "../utils/planHelpers";
 

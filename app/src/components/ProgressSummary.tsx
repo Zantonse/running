@@ -1,4 +1,4 @@
-import { TrainingBlock, ProgressData } from "../types";
+import type { TrainingBlock, ProgressData } from "../types";
 import {
   getActiveBlock,
   getCurrentWeek,
