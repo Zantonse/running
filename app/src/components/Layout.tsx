@@ -1,10 +1,13 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink, Outlet, useLocation } from "react-router-dom";
 
 export default function Layout() {
+  const { pathname } = useLocation();
+  const isLearn = pathname.startsWith("/learn");
+
   return (
     <div className="min-h-screen bg-stone-50 text-stone-900">
       <header className="sticky top-0 z-10 bg-white border-b border-stone-200">
-        <div className="max-w-2xl mx-auto px-4 py-3 flex items-center justify-between">
+        <div className="max-w-3xl mx-auto px-4 py-3 flex items-center justify-between">
           <h1 className="text-lg font-semibold tracking-tight">Training Tracker</h1>
           <nav className="flex gap-1 bg-stone-100 rounded-lg p-1">
             <NavLink
@@ -28,10 +31,18 @@ export default function Layout() {
             >
               Calendar
             </NavLink>
+            <NavLink
+              to="/learn"
+              className={`px-3 py-1.5 text-sm font-medium rounded-md transition-colors ${
+                isLearn ? "bg-white text-stone-900 shadow-sm" : "text-stone-500 hover:text-stone-700"
+              }`}
+            >
+              Learn
+            </NavLink>
           </nav>
         </div>
       </header>
-      <main className="max-w-2xl mx-auto px-4 py-6">
+      <main className={`mx-auto px-4 py-6 ${isLearn ? "max-w-3xl" : "max-w-2xl"}`}>
         <Outlet />
       </main>
     </div>
