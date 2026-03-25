@@ -9,6 +9,7 @@ import StretchingPage from "./pages/learn/StretchingPage";
 import InjuriesPage from "./pages/learn/InjuriesPage";
 import PreventionPage from "./pages/learn/PreventionPage";
 import RecoveryPage from "./pages/learn/RecoveryPage";
+import AerobicBasePage from "./pages/learn/AerobicBasePage";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/calendar" element={<CalendarPage />} />
         <Route path="/learn" element={<LearnPage />} />
         <Route path="/learn" element={<LearnLayout />}>
+          <Route path="aerobic-base" element={<AerobicBasePage />} />
           <Route path="mobility" element={<MobilityPage />} />
           <Route path="stretching" element={<StretchingPage />} />
           <Route path="injuries" element={<InjuriesPage />} />

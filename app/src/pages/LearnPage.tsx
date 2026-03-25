@@ -2,6 +2,13 @@ import { Link } from "react-router-dom";
 
 const topics = [
   {
+    to: "/learn/aerobic-base",
+    image: "/images/learn/aerobic-base.png",
+    title: "Aerobic Base",
+    summary:
+      "Zone 2 physiology, MAF training, and how to build your aerobic foundation over 8–16 weeks.",
+  },
+  {
     to: "/learn/mobility",
     image: "/images/learn/mobility.png",
     title: "Mobility",
