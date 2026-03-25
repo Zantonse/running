@@ -16,6 +16,13 @@ const topics = [
       "Cadence, foot strike, arm swing, and the biomechanics that actually matter — ranked by evidence.",
   },
   {
+    to: "/learn/half-marathon",
+    image: "/images/learn/half-marathon.png",
+    title: "Half Marathon",
+    summary:
+      "Training plans compared, key workouts, pacing strategy, fueling by finish time, and race-day execution.",
+  },
+  {
     to: "/learn/mobility",
     image: "/images/learn/mobility.png",
     title: "Mobility",

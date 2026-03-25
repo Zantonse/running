@@ -3,6 +3,7 @@ import { NavLink, Outlet } from "react-router-dom";
 const topics = [
   { to: "/learn/aerobic-base", label: "Aerobic Base" },
   { to: "/learn/running-form", label: "Running Form" },
+  { to: "/learn/half-marathon", label: "Half Marathon" },
   { to: "/learn/mobility", label: "Mobility" },
   { to: "/learn/stretching", label: "Stretching" },
   { to: "/learn/injuries", label: "Injuries" },
