@@ -9,6 +9,13 @@ const topics = [
       "Zone 2 physiology, MAF training, and how to build your aerobic foundation over 8–16 weeks.",
   },
   {
+    to: "/learn/running-form",
+    image: "/images/learn/running-form.png",
+    title: "Running Form",
+    summary:
+      "Cadence, foot strike, arm swing, and the biomechanics that actually matter — ranked by evidence.",
+  },
+  {
     to: "/learn/mobility",
     image: "/images/learn/mobility.png",
     title: "Mobility",
