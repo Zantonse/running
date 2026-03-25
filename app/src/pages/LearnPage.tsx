@@ -30,6 +30,13 @@ const topics = [
       "Foam science, carbon plates, shoe rotation, daily trainer picks, and what's actually worth the money.",
   },
   {
+    to: "/learn/running-gear",
+    image: "/images/learn/running-gear.png",
+    title: "Running Gear",
+    summary:
+      "Shirts, shorts, brands, fabric science, temperature dressing guide, and building a wardrobe by budget.",
+  },
+  {
     to: "/learn/mobility",
     image: "/images/learn/mobility.png",
     title: "Mobility",

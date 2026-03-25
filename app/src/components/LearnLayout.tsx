@@ -5,6 +5,7 @@ const topics = [
   { to: "/learn/running-form", label: "Running Form" },
   { to: "/learn/half-marathon", label: "Half Marathon" },
   { to: "/learn/running-shoes", label: "Shoes" },
+  { to: "/learn/running-gear", label: "Gear" },
   { to: "/learn/mobility", label: "Mobility" },
   { to: "/learn/stretching", label: "Stretching" },
   { to: "/learn/injuries", label: "Injuries" },
