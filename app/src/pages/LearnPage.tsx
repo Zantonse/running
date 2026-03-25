@@ -23,6 +23,13 @@ const topics = [
       "Training plans compared, key workouts, pacing strategy, fueling by finish time, and race-day execution.",
   },
   {
+    to: "/learn/running-shoes",
+    image: "/images/learn/running-shoes.png",
+    title: "Running Shoes",
+    summary:
+      "Foam science, carbon plates, shoe rotation, daily trainer picks, and what's actually worth the money.",
+  },
+  {
     to: "/learn/mobility",
     image: "/images/learn/mobility.png",
     title: "Mobility",

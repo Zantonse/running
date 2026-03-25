@@ -12,6 +12,7 @@ import RecoveryPage from "./pages/learn/RecoveryPage";
 import AerobicBasePage from "./pages/learn/AerobicBasePage";
 import RunningFormPage from "./pages/learn/RunningFormPage";
 import HalfMarathonPage from "./pages/learn/HalfMarathonPage";
+import RunningShoesPage from "./pages/learn/RunningShoesPage";
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="aerobic-base" element={<AerobicBasePage />} />
           <Route path="running-form" element={<RunningFormPage />} />
           <Route path="half-marathon" element={<HalfMarathonPage />} />
+          <Route path="running-shoes" element={<RunningShoesPage />} />
           <Route path="mobility" element={<MobilityPage />} />
           <Route path="stretching" element={<StretchingPage />} />
           <Route path="injuries" element={<InjuriesPage />} />
