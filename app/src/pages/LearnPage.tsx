@@ -37,6 +37,13 @@ const topics = [
       "Shirts, shorts, brands, fabric science, temperature dressing guide, and building a wardrobe by budget.",
   },
   {
+    to: "/learn/vo2-max",
+    image: "/images/learn/vo2-max.png",
+    title: "VO2 Max",
+    summary:
+      "The strongest longevity predictor: what it is, normative tables, how to improve it, and why it matters more than you think.",
+  },
+  {
     to: "/learn/mobility",
     image: "/images/learn/mobility.png",
     title: "Mobility",
