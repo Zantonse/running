@@ -26,6 +26,11 @@ export default function RunningGearPage() {
 
       <div className="space-y-3">
         <InfoCard title="What to Wear: Temperature Guide" defaultOpen>
+          <img
+            src="/images/learn/gear-temp-guide.png"
+            alt="What to wear by temperature: full layers below 30F, LS + tights 30-50F, Goldilocks zone 50-60F, tank + shorts 60-70F, minimum coverage above 70F"
+            className="w-full rounded-lg mb-3"
+          />
           <p>
             Dress as if it's 10–20°F warmer than the actual temperature. You should feel slightly
             cold at the start — core temperature rises within the first mile.
@@ -210,6 +215,11 @@ export default function RunningGearPage() {
         </InfoCard>
 
         <InfoCard title="Shorts: Styles & Best Picks">
+          <img
+            src="/images/learn/gear-shorts-styles.png"
+            alt="Shorts styles: Split for racing (1-3 inch), Lined for daily (5 inch), 2-in-1 for long runs (5-7 inch), Half-Tight fastest growing (7-9 inch)"
+            className="w-full rounded-lg mb-3"
+          />
           <p className="font-medium text-stone-900">Style guide</p>
           <div className="overflow-x-auto mt-1">
             <table className="w-full text-sm">
@@ -293,6 +303,11 @@ export default function RunningGearPage() {
         </InfoCard>
 
         <InfoCard title="Brands: Who Makes What">
+          <img
+            src="/images/learn/gear-brand-tiers.png"
+            alt="Brand tiers: Budget $20-40 (Nike, Old Navy), Mid $40-70 (rabbit, Adidas), Premium $70-130 (Tracksmith, On, lululemon — most contested), Luxury $130+ (Satisfy, District Vision)"
+            className="w-full rounded-lg mb-3"
+          />
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
@@ -373,6 +388,11 @@ export default function RunningGearPage() {
         </InfoCard>
 
         <InfoCard title="Building a Wardrobe by Budget">
+          <img
+            src="/images/learn/gear-wardrobe-kits.png"
+            alt="Build your kit: Starter ~$120, Serious ~$350 (recommended), No Compromise ~$600+"
+            className="w-full rounded-lg mb-3"
+          />
           <p className="font-medium text-stone-900">Starter kit (~$120)</p>
           <ul className="list-disc list-inside space-y-1 mt-1">
             <li>Nike Dri-FIT Rise 365 tee ($25)</li>
