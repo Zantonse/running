@@ -26,6 +26,11 @@ export default function RunningShoesPage() {
 
       <div className="space-y-3">
         <InfoCard title="Foam Technology: What's Inside Your Shoes" defaultOpen>
+          <img
+            src="/images/learn/shoes-foam-spectrum.png"
+            alt="Foam energy return spectrum from Standard EVA at 52% to Lightstrike Pro at 80.4%, with ceiling at 80% under World Athletics rules"
+            className="w-full rounded-lg mb-3"
+          />
           <p>
             The midsole foam is the most consequential component of a modern running shoe. Energy
             return ranges from ~52% (standard EVA) to ~80% (top-tier TPEE), and A-TPU is
@@ -117,6 +122,11 @@ export default function RunningShoesPage() {
         </InfoCard>
 
         <InfoCard title="Carbon Plates: How They Work">
+          <img
+            src="/images/learn/shoes-carbon-benefit.png"
+            alt="Carbon plate benefit by pace: 2.7-4.2% for fast runners, 1.4% moderate, 0.9% slow with 33% of slow runners worse"
+            className="w-full rounded-lg mb-3"
+          />
           <p>
             Carbon fiber plates don't "spring" you forward — they stiffen the forefoot, reducing
             energy lost at the metatarsophalangeal (MTP) joint during toe-off. The plate, foam, and
@@ -168,6 +178,16 @@ export default function RunningShoesPage() {
         </InfoCard>
 
         <InfoCard title="Building a Shoe Rotation">
+          <img
+            src="/images/learn/shoes-rotation-stat.png"
+            alt="39% lower injury risk from rotating 2-3 different shoe models"
+            className="w-full rounded-lg mb-3"
+          />
+          <img
+            src="/images/learn/shoes-rotation-guide.png"
+            alt="Build your rotation: Daily 50-60%, Long Run 20-25%, Workout 15-20%, Race 5-10%"
+            className="w-full rounded-lg mb-3"
+          />
           <p>
             Malisoux et al. (2013, Scand J Med Sci Sports, n=264, 22 weeks): runners rotating
             multiple models had 39% lower injury risk. The mechanism is twofold — foam needs 24+
