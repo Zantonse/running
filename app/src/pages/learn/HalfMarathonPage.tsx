@@ -27,6 +27,11 @@ export default function HalfMarathonPage() {
 
       <div className="space-y-3">
         <InfoCard title="Choosing a Training Plan" defaultOpen>
+          <img
+            src="/images/learn/hm-plans-comparison.png"
+            alt="Pick your plan: Higdon for first-timers, Pfitzinger for competitive, Hansons for fatigue resistance, Daniels for precision pacing"
+            className="w-full rounded-lg mb-3"
+          />
           <p>
             12 weeks is the consensus minimum plan length. The right plan depends on your base
             mileage and goals — not on which is "best" in the abstract.
@@ -160,6 +165,11 @@ export default function HalfMarathonPage() {
         </InfoCard>
 
         <InfoCard title="Pacing & Race Execution">
+          <img
+            src="/images/learn/hm-race-execution.png"
+            alt="Half marathon mile by mile: Miles 1-3 hold back, 4-8 lock in, 9-11 dark patch, 12-13.1 all out"
+            className="w-full rounded-lg mb-3"
+          />
           <p>
             Negative or even splits are physiologically optimal — they spare glycogen, control core
             temperature, and delay cardiovascular drift (Grivas 2025, Frontiers in Physiology). A
@@ -225,6 +235,11 @@ export default function HalfMarathonPage() {
         </InfoCard>
 
         <InfoCard title="Nutrition & Fueling">
+          <img
+            src="/images/learn/hm-fueling-strategy.png"
+            alt="Fuel by finish time: sub-1:30 needs 0-1 gels, 2:15+ needs 2-3 gels starting at minute 35"
+            className="w-full rounded-lg mb-3"
+          />
           <p>
             Glycogen stores last ~75–90 minutes at race effort. Sub-1:45 runners may finish before
             depleting; 2:00+ runners face real glycogen risk. Fueling strategy should be stratified
@@ -310,6 +325,11 @@ export default function HalfMarathonPage() {
         </InfoCard>
 
         <InfoCard title="Race Day & Mental Game">
+          <img
+            src="/images/learn/hm-start-slow-stat.png"
+            alt="10-15 seconds per mile slower for the first 3 miles — starting too fast is the number one race-day mistake"
+            className="w-full rounded-lg mb-3"
+          />
           <p className="font-medium text-stone-900">Race morning timeline</p>
           <div className="overflow-x-auto mt-1">
             <table className="w-full text-sm">
