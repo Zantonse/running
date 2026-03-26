@@ -103,6 +103,11 @@ export default function AerobicBasePage() {
         </InfoCard>
 
         <InfoCard title="Training Methods Compared">
+          <img
+            src="/images/learn/base-methods-comparison.png"
+            alt="4 Methods, 1 Goal: MAF for beginners, 80/20 for intermediate, Lydiard for advanced, Zone 2 for all levels. All agree: avoid the grey zone."
+            className="w-full rounded-lg mb-3"
+          />
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
@@ -185,6 +190,11 @@ export default function AerobicBasePage() {
         </InfoCard>
 
         <InfoCard title="Finding Your Zones">
+          <img
+            src="/images/learn/base-zone-spectrum.png"
+            alt="Heart rate zones: Zone 2 (65-80%) is where to train, Zone 3 (80-87%) is the grey zone to avoid. Recreational runners spend 15-30% more time in Zone 3 than elites."
+            className="w-full rounded-lg mb-3"
+          />
           <p className="font-medium text-stone-900">MAF 180 Formula</p>
           <p className="mt-1">
             MAF HR = 180 − age, then adjust: −10 if recovering from major illness or chronic
@@ -262,6 +272,11 @@ export default function AerobicBasePage() {
         </InfoCard>
 
         <InfoCard title="How Long It Takes">
+          <img
+            src="/images/learn/base-adaptation-timeline.png"
+            alt="Early gains weeks 1-4: cardiac remodeling, blood volume. Deep adaptations weeks 4-16+: mitochondria, capillaries, fat oxidation. Most runners quit right before deep adaptations begin."
+            className="w-full rounded-lg mb-3"
+          />
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
@@ -361,6 +376,11 @@ export default function AerobicBasePage() {
         </InfoCard>
 
         <InfoCard title="Quick-Start Guide">
+          <img
+            src="/images/learn/base-quickstart-recipe.png"
+            alt="Quick start: Calculate MAF HR, Run 3 easy runs below it, Test 3-mile MAF pace, Add strides, Build volume with 3-up/1-down cycle"
+            className="w-full rounded-lg mb-3"
+          />
           <p className="font-medium text-stone-900">5 Steps to Start</p>
           <ol className="list-decimal list-inside space-y-1 mt-1">
             <li>Calculate your MAF HR (180 − age, adjusted) as a starting ceiling</li>
