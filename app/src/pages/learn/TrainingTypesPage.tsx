@@ -25,6 +25,11 @@ export default function TrainingTypesPage() {
 
       <div className="space-y-3">
         <InfoCard title="Workout Comparison Table" defaultOpen>
+          <img
+            src="/images/learn/training-intensity-spectrum.png"
+            alt="Workout intensity spectrum from easy (70-80% of miles) to max (20-30% quality), showing recovery, easy run, long run, progression, tempo, hill repeats, VO2max intervals, and strides"
+            className="w-full rounded-lg mb-3"
+          />
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
@@ -114,6 +119,11 @@ export default function TrainingTypesPage() {
         </InfoCard>
 
         <InfoCard title="Periodization: Sequencing It All">
+          <img
+            src="/images/learn/training-phases-timeline.png"
+            alt="4 phases of training: Base (6-12 wks, easy runs), Build (6-8 wks, tempo/intervals), Sharpen (2-4 wks, race pace), Taper (1-3 wks, volume -41-60%)"
+            className="w-full rounded-lg mb-3"
+          />
           <p>
             The 4-phase model sequences workout types for peak performance at a target race.
           </p>

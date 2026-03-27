@@ -26,6 +26,11 @@ export default function MarathonNutritionPage() {
 
       <div className="space-y-3">
         <InfoCard title="Race-Day Fueling by Goal Time" defaultOpen>
+          <img
+            src="/images/learn/marathon-carb-stat.png"
+            alt="60-90 g/hr carbs during the marathon — the single most predictive variable for sub-3 finishing, yet average runner takes only 35 g/hr"
+            className="w-full rounded-lg mb-3"
+          />
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
@@ -114,6 +119,11 @@ export default function MarathonNutritionPage() {
         </InfoCard>
 
         <InfoCard title="The Wall & How to Prevent It">
+          <img
+            src="/images/learn/marathon-fueling-timeline.png"
+            alt="Marathon fueling timeline: pre-race meal 3-4 hrs before, top off 15 min before, FIRST GEL at mile 3-4, continue every 20-30 min targeting 60-90 g/hr, last gel mile 22-24, recovery 3:1 carbs:protein at finish"
+            className="w-full rounded-lg mb-3"
+          />
           <p>
             The body stores ~2,000 calories of glycogen. At ~100 cal/mile, stores are critically
             depleted at miles 18–22 without fueling. A 2025 UCD study found 28% of men and 17% of
