@@ -51,6 +51,20 @@ const topics = [
       "Recovery timelines by workout type, the hard-easy principle, tools ranked by evidence, and what actually hurts recovery.",
   },
   {
+    to: "/learn/training-types",
+    image: "/images/learn/training-types.png",
+    title: "Training Types",
+    summary:
+      "Easy runs, tempo, intervals, fartlek, hills, strides — what each does and how to periodize them.",
+  },
+  {
+    to: "/learn/marathon-nutrition",
+    image: "/images/learn/marathon-nutrition.png",
+    title: "Marathon Nutrition",
+    summary:
+      "Dual-transporter fueling, gut training, carb loading, the wall, and race-day gel strategy by goal time.",
+  },
+  {
     to: "/learn/mobility",
     image: "/images/learn/mobility.png",
     title: "Mobility",

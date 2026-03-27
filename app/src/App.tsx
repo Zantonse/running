@@ -16,6 +16,8 @@ import RunningShoesPage from "./pages/learn/RunningShoesPage";
 import RunningGearPage from "./pages/learn/RunningGearPage";
 import Vo2MaxPage from "./pages/learn/Vo2MaxPage";
 import LegRecoveryPage from "./pages/learn/LegRecoveryPage";
+import TrainingTypesPage from "./pages/learn/TrainingTypesPage";
+import MarathonNutritionPage from "./pages/learn/MarathonNutritionPage";
 
 export default function App() {
   return (
@@ -32,6 +34,8 @@ export default function App() {
           <Route path="running-gear" element={<RunningGearPage />} />
           <Route path="vo2-max" element={<Vo2MaxPage />} />
           <Route path="leg-recovery" element={<LegRecoveryPage />} />
+          <Route path="training-types" element={<TrainingTypesPage />} />
+          <Route path="marathon-nutrition" element={<MarathonNutritionPage />} />
           <Route path="mobility" element={<MobilityPage />} />
           <Route path="stretching" element={<StretchingPage />} />
           <Route path="injuries" element={<InjuriesPage />} />
