@@ -22,6 +22,12 @@ export default function MobilityPage() {
         </p>
       </div>
 
+      <img
+        src="/images/learn/mobility-three-joints.png"
+        alt="3 joints that matter: Hips, Ankles, Thoracic Spine. Mobility before flexibility."
+        className="w-full rounded-lg mb-4"
+      />
+
       <div className="space-y-3">
         <InfoCard title="Hip Mobility" defaultOpen>
           <p>

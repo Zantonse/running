@@ -22,6 +22,12 @@ export default function InjuriesPage() {
         </p>
       </div>
 
+      <img
+        src="/images/learn/injuries-pain-traffic-light.png"
+        alt="Pain traffic light: Green 0-3 safe to run, Yellow 4-5 modify, Red 6+ stop."
+        className="w-full rounded-lg mb-4"
+      />
+
       <div className="space-y-3">
         <InfoCard title="Injury Overview" defaultOpen>
           <div className="overflow-x-auto">

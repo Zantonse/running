@@ -22,6 +22,12 @@ export default function StretchingPage() {
         </p>
       </div>
 
+      <img
+        src="/images/learn/stretching-when-timeline.png"
+        alt="When to stretch: Dynamic pre-run, static post-run, PNF on separate days. Never static before running."
+        className="w-full rounded-lg mb-4"
+      />
+
       <div className="space-y-3">
         <InfoCard title="Dynamic Pre-Run Sequence (8–10 min)" defaultOpen>
           <p>

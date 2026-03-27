@@ -22,6 +22,12 @@ export default function PreventionPage() {
         </p>
       </div>
 
+      <img
+        src="/images/learn/prevention-evidence-ranked.png"
+        alt="Prevention ranked: Strength training 30-47%, Nordic curls 63%, Load management, Shoe rotation 39%, Form changes"
+        className="w-full rounded-lg mb-4"
+      />
+
       <div className="space-y-3">
         <InfoCard title="Evidence Rankings" defaultOpen>
           <div className="overflow-x-auto">

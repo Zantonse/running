@@ -24,6 +24,11 @@ export default function RecoveryPage() {
       </div>
 
       <div className="space-y-3">
+        <img
+          src="/images/learn/recovery-priority-pyramid.png"
+          alt="Recovery priority pyramid: Sleep at the base (7-9 hrs), then Nutrition (30-45 min window), Cold Water (10-15 min), Foam Rolling (120 sec per group). Get sleep right before optimizing everything else."
+          className="w-full rounded-lg mb-3"
+        />
         <InfoCard title="Evidence Tiers" defaultOpen>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
