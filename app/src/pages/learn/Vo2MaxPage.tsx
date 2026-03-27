@@ -52,6 +52,11 @@ export default function Vo2MaxPage() {
         </InfoCard>
 
         <InfoCard title="Where You Stand: Levels & Benchmarks">
+          <img
+            src="/images/learn/vo2-functional-spectrum.png"
+            alt="What your VO2 max number means: below 20 walking is hard, 35-42 can run 10-12 min/mi, 42-55 sub-2hr half marathon, 55-97 competitive to world-class. Independence threshold at 18-20."
+            className="w-full rounded-lg mb-3"
+          />
           <p className="font-medium text-stone-900">Normative values (ml/kg/min) — Males</p>
           <div className="overflow-x-auto mt-1">
             <table className="w-full text-sm">
@@ -101,6 +106,11 @@ export default function Vo2MaxPage() {
         </InfoCard>
 
         <InfoCard title="How to Improve It">
+          <img
+            src="/images/learn/vo2-protocols-ranked.png"
+            alt="Best protocols ranked: Norwegian 4x4 (gold standard, +5-8%), HIIT (+5-10%), Sprint intervals (+4-8%), Billat (+3-6%), Threshold (+2-4%). Untrained gain 15-25%."
+            className="w-full rounded-lg mb-3"
+          />
           <p>
             The Norwegian 4×4 protocol is the gold standard. Untrained adults can gain 15–25%
             in 8–20 weeks; trained athletes 5–10%. Genetics explain ~47% of trainability
@@ -166,6 +176,11 @@ export default function Vo2MaxPage() {
         </InfoCard>
 
         <InfoCard title="Why It Matters: Longevity & Daily Life">
+          <img
+            src="/images/learn/vo2-mortality-stat.png"
+            alt="5x higher mortality for low fitness vs elite. Low VO2 max is a stronger predictor than smoking, diabetes, or hypertension."
+            className="w-full rounded-lg mb-3"
+          />
           <p>
             Peter Attia calls VO2 max "the single most powerful independent predictor of
             all-cause mortality." The data backs him up.
@@ -188,6 +203,11 @@ export default function Vo2MaxPage() {
             </table>
           </div>
           <p className="font-medium text-stone-900 mt-3">The Marginal Decade</p>
+          <img
+            src="/images/learn/vo2-marginal-decade.png"
+            alt="The Marginal Decade: Active person starts at 42 at age 50 and stays independent at 80. Sedentary person starts at 28 and crosses below independence threshold by 70."
+            className="w-full rounded-lg my-2"
+          />
           <p className="mt-1">
             Attia's framework: whatever physical capacity you need at 80, you needed to peak far
             above it at 50 — because you lose ~10% per decade. A 50-year-old at 42 ml/kg/min
