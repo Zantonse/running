@@ -44,6 +44,13 @@ const topics = [
       "The strongest longevity predictor: what it is, normative tables, how to improve it, and why it matters more than you think.",
   },
   {
+    to: "/learn/leg-recovery",
+    image: "/images/learn/leg-recovery.png",
+    title: "Leg Recovery",
+    summary:
+      "Recovery timelines by workout type, the hard-easy principle, tools ranked by evidence, and what actually hurts recovery.",
+  },
+  {
     to: "/learn/mobility",
     image: "/images/learn/mobility.png",
     title: "Mobility",

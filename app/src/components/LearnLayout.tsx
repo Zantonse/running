@@ -7,6 +7,7 @@ const topics = [
   { to: "/learn/running-shoes", label: "Shoes" },
   { to: "/learn/running-gear", label: "Gear" },
   { to: "/learn/vo2-max", label: "VO2 Max" },
+  { to: "/learn/leg-recovery", label: "Leg Recovery" },
   { to: "/learn/mobility", label: "Mobility" },
   { to: "/learn/stretching", label: "Stretching" },
   { to: "/learn/injuries", label: "Injuries" },
