@@ -27,6 +27,11 @@ export default function LegRecoveryPage() {
 
       <div className="space-y-3">
         <InfoCard title="Recovery Timelines by Workout Type" defaultOpen>
+          <img
+            src="/images/learn/recovery-timelines-bars.png"
+            alt="Recovery by workout type: Easy run 12-24 hrs, Tempo 24-48 hrs, VO2max intervals 48-72 hrs, Long run 48-72 hrs, Hilly/downhill 72+ hrs. Tendons recover slower than muscle."
+            className="w-full rounded-lg mb-3"
+          />
           <p>
             Different workouts create different types of damage, requiring different recovery
             windows. The mistake most runners make is treating all runs the same.
@@ -83,6 +88,11 @@ export default function LegRecoveryPage() {
         </InfoCard>
 
         <InfoCard title="The Hard-Easy Principle">
+          <img
+            src="/images/learn/recovery-hard-easy.png"
+            alt="The hard-easy principle: weekly bar chart showing alternating tall (hard) and short (easy) days. Never follow a hard day with another hard day."
+            className="w-full rounded-lg mb-3"
+          />
           <p>
             The most fundamental training structure: never follow a hard day with another hard
             day. Hard sessions (tempo, intervals, long run) create damage; easy days allow
